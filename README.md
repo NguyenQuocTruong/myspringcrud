@@ -1,5 +1,5 @@
 # myspringcrud
-Ứng dụng CRUD đơn giản sử dụng spring boot
+Ứng dụng CRUD đơn giản sử dụng spring boot.
 mục đích: hiểu vể các khái niệm cơ bản trong spring boot
 
 # Công nghệ sử dụng
@@ -11,22 +11,22 @@ Template engine: Thymeleaf và Bootstrap css.
 Tool IDE: Intellij JetBrain.
 Công nghệ khác: Maven 3, 1. Tomcat Embed 8.
   
-#Các chức năng chính sẽ xây dựng:
+# Các chức năng chính sẽ xây dựng:
   Hiển thị quản lý Nhân viên (EMPLOYEE MANAGE).
   Thêm user (ADD EMPLOYEE)
   Sửa user. (EDIT EMPLOYEE)
   Xóa user. (DELETE EMPLOYEE)
 
 # Tạo bảng csdl:
-CREATE TABLE `employee` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(45) NOT NULL,
-  `email` varchar(45) NOT NULL,
-  `phone` varchar(45) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+  CREATE TABLE `employee` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `name` varchar(45) NOT NULL,
+    `email` varchar(45) NOT NULL,
+    `phone` varchar(45) NOT NULL,
+    PRIMARY KEY (`id`)
+  ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
-#Cấu hinh pom.xml
+# Cấu hinh pom.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
